@@ -1,0 +1,33 @@
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "@webpixels/css" ;
+
+/*Responsive design for thr page news */
+ @media (max-width:768px)  {
+  .Feed_post__cCI21 {
+      padding:1em ;
+      margin:0 auto ;
+  }
+ }
+  
+.custom-nav {
+  background: rgba(0,0,0,.72);
+  color:white !important
+}
