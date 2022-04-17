@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const DefaultLayout = ({ children }) => {
   return (
-    <main>
+    <main style={{width:"100vw !important"}}>
       <Nav />
       {children}
       <Footer />

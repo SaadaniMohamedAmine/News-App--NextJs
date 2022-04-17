@@ -4,7 +4,7 @@ import { Container, Navbar } from "react-bootstrap";
 
 const Nav = () => {
   return (
-    <Navbar expand="md" className="sticky-top py-2 custom-nav">
+    <Navbar expand="md" bg="dark">
       <Container>
         <Link href="/">
           <a className="navbar-brand">

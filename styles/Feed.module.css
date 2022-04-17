@@ -33,3 +33,10 @@
     cursor: not-allowed;
     color: rgb(179, 179, 179);
   }
+  
+  /* responsive design  */
+  @media (max-Width:550px) {
+    .post {
+      width: 100%;
+    }
+  }

@@ -16,7 +16,7 @@ const Info = ({ profile }) => {
       </Head>
       <DefaultLayout>
         <div className={styles.mainEom}>
-          <div className=" p-5 bg-light border rounded-3 mb-5">
+          <div className=" p-5 bg-light border rounded-3 m-4">
             <h2>{name}</h2>
             <p>{bio + "......"}</p>
             <div className={styles.employeeOfTheMonth}>

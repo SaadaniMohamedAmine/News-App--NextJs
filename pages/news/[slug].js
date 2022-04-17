@@ -20,14 +20,14 @@ const Feed = ({ pageNumber, articles }) => {
         <link rel="icon" href="/logo-2.png" />
       </Head>
       <DefaultLayout>
-        <div className="container">
+        <div className="container px-5">
           <div className={styles.main}>
             {articles.map((article, index) => (
               <div key={index} className={styles.post}>
                 <h1 onClick={() => (window.location.href = article.url)}>
                   {article.title}
                 </h1>
-                <p className="text-muted">{article.description}</p>
+                <p className="text-muted text-center">{article.description}</p>
                 {!!article.urlToImage && <img src={article.urlToImage} />}
               </div>
             ))}
